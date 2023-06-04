@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon Petit Site</title>
+  <style>
+    body {
+      text-align: center;
+      padding: 50px;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue sur Mon Petit Site !</h1>
+  <button onclick="showAlert()">Cliquez ici</button>
+
+  <script>
+    function showAlert() {
+      alert("Vous avez cliqué sur le bouton !");
+    }
+  </script>
+</body>
+</html>
